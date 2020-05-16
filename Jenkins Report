@@ -1,0 +1,23 @@
+Started by user varun appalla
+Running as SYSTEM
+Building in workspace C:\Users\LENOVO\.jenkins\workspace\PromoApp_Automation
+No credentials specified
+Cloning the remote Git repository
+Cloning repository https://github.com/Varunappalla93/PromoApp_Unittest_BasicFrameWork
+ > git.exe init C:\Users\LENOVO\.jenkins\workspace\PromoApp_Automation # timeout=10
+Fetching upstream changes from https://github.com/Varunappalla93/PromoApp_Unittest_BasicFrameWork
+ > git.exe --version # timeout=10
+ > git.exe fetch --tags --force --progress -- https://github.com/Varunappalla93/PromoApp_Unittest_BasicFrameWork +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git.exe config remote.origin.url https://github.com/Varunappalla93/PromoApp_Unittest_BasicFrameWork # timeout=10
+ > git.exe config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git.exe config remote.origin.url https://github.com/Varunappalla93/PromoApp_Unittest_BasicFrameWork # timeout=10
+Fetching upstream changes from https://github.com/Varunappalla93/PromoApp_Unittest_BasicFrameWork
+ > git.exe fetch --tags --force --progress -- https://github.com/Varunappalla93/PromoApp_Unittest_BasicFrameWork +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git.exe rev-parse "refs/remotes/origin/master^{commit}" # timeout=10
+ > git.exe rev-parse "refs/remotes/origin/origin/master^{commit}" # timeout=10
+Checking out Revision e4553ed50acd79ee49745d456430ba49399e596d (refs/remotes/origin/master)
+ > git.exe config core.sparsecheckout # timeout=10
+ > git.exe checkout -f e4553ed50acd79ee49745d456430ba49399e596d # timeout=10
+Commit message: "Update TC3_ManageEvent.py"
+First time build. Skipping changelog.
+Finished: SUCCESS
