@@ -1,7 +1,6 @@
 import unittest
 from selenium import webdriver
 import sys
-import HtmlTestRunner
 sys.path.append("C:/Users/LENOVO/PycharmProjects/PromoAppAutomation")
 from PageObjects.LoginPage import loginPage
 import time
